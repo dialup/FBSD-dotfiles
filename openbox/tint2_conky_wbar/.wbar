@@ -1,0 +1,23 @@
+i: /usr/local/share/pixmaps/wbar/dock.png
+c: wbar --bpress --above-desk --vbar --pos right --isize 64 --idist 5 --nanim 4 --falfa 65
+t: none
+
+i: /usr/local/share/pixmaps/wbar/wbar.png
+c: wbar-config
+t: Config
+
+i: /home/lord/ICONES_/hd.png
+c: nautilus
+t: HD
+
+i: /home/lord/ICONES_/terminal.jpeg
+c: xfce4-terminal
+t: Terminal
+
+i: /home/lord/ICONES_/firefox.png
+c: firefox
+t: Firefox
+
+
+
+

@@ -1,0 +1,5 @@
+(sleep 2 && wbar) &
+(sleep 2 && tint2 -c /home/lord/.tint2rc) &
+feh --bg-scale /home/lord/ICONES_/cogumelo.jpg 
+feh --bg-scale DD_freebsd.jpg &
+conky &
