@@ -1,0 +1,87 @@
+ !Xft.dpi:                      96
+ Xft.rgba:                      rgb
+ Xft.antialias:                 true
+ Xft.hinting:                   true
+ Xft.hintstyle:                 hintfull
+ !Xft.hintstyle:									hintslight
+
+ xcalendar*firstDay:            1
+ xcalendar*markHoliday:         false
+ !Xcursor.theme:                whitelarge
+ !Xcursor.size:                 32
+
+ !-------------------------------------------------------------------------------
+ !
+ !	U R X V T - Setting
+ !
+ !real transparency with active compositor
+ !URxvt*depth:                          32
+ !URxvt*background:                     rgba:0000/0000/0000/dddd
+ !
+ URxvt*scrollBar:                       false
+ !URxvt*scrollColor:                    grey13
+ !URxvt*troughColor:                    black
+ !URxvt*scrollBar_floating:             true
+ !URxvt*scrollBar_right:                true
+ !URxvt*cursorColor:                     darkorange1
+  URxvt*cursorColor:                     darkgreen
+ URxvt*foreground:                      grey75
+ URxvt*background:                      grey15
+ URxvt*saveLines:                       7777
+ URxvt*cursorBlink:                     false
+ URxvt*termName:                        rxvt-256color
+ URxvt*font:                            xft:Dejavu Sans Mono:pixelsize=13.5
+ URxvt*boldFont:                        xft:Dejavu Sans Mono:pixelsize=13.5
+ URxvt*colorBD:                         #00868B
+ URxvt*transparent:                     true
+ !URxvt*shading:                        33
+ !URxvt*tintColor:                      turquoise
+ URxvt.cutchars:                        ()*,<>[]{}|`""''
+ !URxvt.tabbed.tabbar-fg:               6
+ !URxvt.tabbed.tabbar-bg:               0
+ !URxvt.tabbed.tab-fg:                  0
+ !URxvt.tabbed.tab-bg:                  3
+ URxvt*iso14755_52:			false
+ URxvt.perl-ext-common:                 matcher
+ URxvt.urlLauncher:                     urlLauncher $0
+ URxvt.keysym.C-Delete:                 perl:matcher:last
+ URxvt.keysym.M-Delete:                 perl:matcher:list
+ URxvt*matcher.pattern.1:               \\bhttps?:\/\/(www.youtube.com|youtube.com|youtu.be)/\\S*
+ URxvt*matcher.launcher.1:              urlLauncher -flash $0
+ URxvt*matcher.pattern.2:               \\bhttps?:\/\/vimeo.com\/([\\w-]*)
+ URxvt*matcher.launcher.2:              urlLauncher -flash $0
+ URxvt*matcher.pattern.3:               \\bhttps?:\/\/[\\w-.]*\/[\\w./?&@#-]*\\.(?i)(mp4|flv|wmv)
+ URxvt*matcher.launcher.3:              urlLauncher -video $0
+ URxvt*matcher.pattern.4:               \\bhttps?:\/\/[\\w-.]*\/[\\w./?&@#-]*\\.(?i)(mp3|ogg|wav|wma)
+ URxvt*matcher.launcher.4:              urlLauncher -audio $0
+ URxvt*matcher.pattern.5:               \\bhttps?:\/\/[\\w-.]*\/[\\w./?&@#-]*\\.(?i)(jpg|jpeg|png)
+ URxvt*matcher.launcher.5:              urlLauncher -image $0
+ URxvt*matcher.pattern.6:               \\bhttps?:\/\/[\\w-.]*\/[\\w./?&@#-]*\\.(?i)(gif)
+ URxvt*matcher.launcher.6:              urlLauncher -gif $0
+
+ !colors
+ !black
+ !URxvt*color0:				#FFFFFF
+ !URxvt*color8:				#FFFFFF
+ !red
+ URxvt*color1:				#8B0000
+ URxvt*color9:				#FF7878
+ !green
+ !URxvt*color2:				#218035
+ !URxvt*color10:				#159630
+ !yellow
+ URxvt*color3:				#FFD700
+ !URxvt*color11:				#EEE8AA
+ !blue
+ URxvt*color4:				#4682B4
+ URxvt*color12:				#00008B
+ !magenta
+ !URxvt*color5:				#E88CFF
+ !URxvt*color13:				#EDA6FF
+ !cyan
+ !URxvt*color6:				#87CEFA
+ !URxvt*color14:				#B0E2FF
+ !white
+ !URxvt*color7:				#DCDCCC
+ !URxvt*color15:				#FFFFFF
+
