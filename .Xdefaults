@@ -3,7 +3,7 @@
  Xft.antialias:                 true
  Xft.hinting:                   true
  Xft.hintstyle:                 hintfull
- !Xft.hintstyle:								hintslight
+ !Xft.hintstyle:                hintslight
 
  xcalendar*firstDay:            1
  xcalendar*markHoliday:         false
