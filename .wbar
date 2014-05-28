@@ -15,18 +15,10 @@ c: urxvt --background-expr 'scale keep { load "/home/user/imagem/black-wallpaper
 t: Terminal
 
 i: /home/user/imagem/xmms.png
-#c: urxvt -fn xft:"DejaVu Sans Mono:size=11"
 c: xmms
 t: opera
 
-#i: /home/user/imagem/terminology.png
-#c: urxvt -fn xft:"DejaVu Sans Mono:size=11"
-#c: terminology
-#t: opera
-
-
 i: /home/user/imagem/gopera.png
-#c: urxvt -fn xft:"DejaVu Sans Mono:size=11"
 c: opera
 t: opera
 
