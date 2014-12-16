@@ -1,40 +1,50 @@
 i: /usr/local/share/pixmaps/wbar/dock.png
-c: wbar --bpress --above-desk --vbar --pos right --isize 64 --idist 5 --nanim 4 --falfa 65
+c: wbar --bpress --above-desk --vbar --pos center-right size 64 --idist 5 --nanim 4 --falfa 65
 t: none
 
-i: /home/user/imagem/pdf.png
+i: /home/lord/ICONES_/pdf.png
 c: xpdf
 t: XPDF
 
-i: /home/user/imagem/vbox.png
+i: /home/lord/ICONES_/vbox.png
 c: VirtualBox
 t: VirtualBox
 
-i: /home/user/imagem/terminal_rg.png
-c: urxvt --background-expr 'scale keep { load "/home/user/imagem/black-wallpaper.jpg" }'
+i: /home/lord/ICONES_/terminal_rg.png
+#c: urxvt --background-expr 'scale keep { load "/home/lord/ICONES_/black-wallpaper.jpg" }'
+c: xterm
 t: Terminal
 
-i: /home/user/imagem/xmms.png
+i: /home/lord/ICONES_/xmms.png
+#c: urxvt -fn xft:"DejaVu Sans Mono:size=11"
 c: xmms
 t: opera
 
-i: /home/user/imagem/gopera.png
+#i: /home/lord/ICONES_/terminology.png
+#c: urxvt -fn xft:"DejaVu Sans Mono:size=11"
+#c: terminology
+#t: opera
+
+
+i: /home/lord/ICONES_/gopera.png
+#c: urxvt -fn xft:"DejaVu Sans Mono:size=11"
 c: opera
 t: opera
 
-i: /home/user/imagem/firefox.png
+i: /home/lord/ICONES_/firefox.png
 c: firefox
 t: Firefox
 
-i: /home/user/imagem/logo.gif
+i: /home/lord/ICONES_/logo.gif
 c: eclipse
 t: Eclipse
 
-i: /home/user/imagem/gimp.png
+i: /home/lord/ICONES_/gimp.png
 c: gimp
 t: Gimp
 
-i: /home/user/imagem/kate.png
+i: /home/lord/ICONES_/kate.png
 c: kate
 t: Kate
+
 
